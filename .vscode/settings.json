@@ -1,0 +1,12 @@
+{
+  "less.compile": {
+    "compress": true, // true => remove surplus whitespace
+    "sourceMap": false, // true => generate source maps (.css.map files)     
+    "out": "${workspaceFolder}/assets/css/", // false => DON'T output .css files (overridableper-file, see below)
+    "math":"always",
+    "main": [
+      "${workspaceFolder}/assets/less/layout/blog.less",
+      "${workspaceFolder}/assets/less/base/base.less",
+    ]
+  }
+}

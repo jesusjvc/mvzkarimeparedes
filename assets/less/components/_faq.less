@@ -1,0 +1,160 @@
+@import '../abstracts/_variables.less';
+
+// Define a base font size.
+@px: 16rem;
+
+// Width variables (appears count calculates by raw css)
+@width1: 100%; // Appears 2 times
+@width2: 3/@px; // Appears 2 times
+
+// Height variables (appears count calculates by raw css)
+@height1: 100%; // Appears 3 times
+@height2: 9/@px; // Appears 2 times
+
+#faq {
+
+    ul {
+        padding: 0;
+        margin: 2rem 0;
+        perspective: 900;
+
+        li {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            min-height: 6rem;
+            position: relative;
+            margin-bottom: .8rem;
+            background-color: gray;
+            box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.1);
+
+            &:last-of-type {
+                padding-bottom: 0;
+            }
+
+            li {
+                margin-top: 1.5rem;
+            }
+
+            i {
+                right: 1.5rem;
+                margin-top: 2.8rem;
+                position: absolute;
+                transform: translate(-6px, 0);
+
+                &:before {
+                    content: "";
+                    width: @width2;
+                    height: @height2;
+                    position: absolute;
+                    background-color: gray;
+                    transform: translate(-2px, 0) rotate(45deg);
+                }
+
+                &:after {
+                    transform: translate(2px, 0) rotate(-45deg);
+                }
+            }
+
+            input[type=checkbox] {
+                opacity: 0;
+                z-index: 1;
+                width: @width1;
+                cursor: pointer;
+                height: @height1;
+                position: absolute;
+                touch-action: manipulation;
+
+                &:checked~h2 {
+                    color: black;
+                }
+
+                &:checked~p {
+                    max-height: 0;
+                    opacity: 0;
+                    transition: .3s;
+                    padding: 0;
+                    margin: 0;
+                    display: flex;
+                }
+
+                &:checked~i {
+
+                    &:before {
+                        transform: translate(2px, 0) rotate(45deg);
+                    }
+
+                    &:after {
+                        transform: translate(-2px, 0) rotate(-45deg);
+                    }
+                }
+            }
+        }
+    }
+
+    h4 {
+  
+        margin: 0;
+        color: black;
+        display: block;
+        cursor: pointer;
+        font-size: 1.8rem;
+        transition: .2s;
+        user-select: none;       
+        line-height: 3.4rem;
+        padding: 15px 23px 0;
+        text-transform: none;
+        text-transform: uppercase;
+        -webkit-tap-highlight-color: transparent;
+        -webkit-touch-callout: none;      
+    }
+
+    p {
+        contain: layout;
+        hyphens: auto;
+        line-height: 1.45;
+        margin-bottom: 0;
+        margin-top: 1.2rem;
+        max-height: 25.0rem;
+        opacity: 1;
+        overflow: hidden;
+        padding: 0 50px 0 1.5rem;
+        position: relative;
+        text-align: left;
+        transform: translate(0, 0);
+        transition: .3s opacity, .6s max-height;
+        will-change: max-height;
+        z-index: 2;
+    }
+
+    .no-select {
+        -webkit-tap-highlight-color: transparent;
+        -webkit-touch-callout: none;
+        user-select: none;
+    }
+}
+
+.transition {
+    transition: all 0.3s;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+
+    li i {
+        &:before {
+            transition: all 0.3s;
+        }
+
+        &:after {
+            content: "";
+            width: @width2;
+            height: @height2;
+            position: absolute;
+            transition: all 0.3s;
+            background-color: black;
+
+        }
+    }
+}

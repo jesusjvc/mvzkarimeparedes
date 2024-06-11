@@ -1,0 +1,117 @@
+@import '../abstracts/_variables.less';
+
+
+/* Headings Style css
+--------------------------------------------- */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    line-height: 1.2;
+    margin: 0 0 20px;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+    margin: .67em 0
+}
+
+h2 {
+    font-size: 27px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+p {
+    margin: 0 0 28px;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: @phone;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+
+    &:focus,
+    &:hover {
+        color: #333;
+        text-decoration: none;
+    }
+}
+
+
+/* Typography Genesis
+--------------------------------------------- */
+blockquote,
+cite,
+em,
+i {
+    font-style: italic;
+}
+
+mark {
+    background: #ddd;
+    color: #333;
+}
+
+blockquote {
+    margin: 30px;
+}
+
+pre,
+code,
+kbd,
+samp {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+
+abbr[title] {
+    border-bottom: none;
+    text-decoration: underline;
+    text-decoration: underline dotted
+}
+
+b,
+strong {
+    font-weight: bolder
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sub {
+    bottom: -.25em
+}
+
+sup {
+    top: -.5em
+}

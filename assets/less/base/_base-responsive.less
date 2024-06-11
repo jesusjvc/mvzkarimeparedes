@@ -1,0 +1,65 @@
+/* Max-width 1024px
+   ========================================================================== */
+@media(max-width: 1024px) {
+
+    .contain {
+        max-width: 90%;
+    }
+}
+
+
+
+/* Max-width 912px
+   ========================================================================== */
+@media(max-width: 912px) {
+
+    .flex {
+
+        &.wrapF {
+            flex-wrap: wrap;
+        }
+
+        &.left,
+        &.right,
+        &.evenly,
+        &.justify {
+            justify-content: center;
+        }
+    }
+
+    .grid {
+        gap: 2rem;
+
+        &.column3 {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+}
+
+
+/* Max-width 540px
+   ========================================================================== */
+@media(max-width: 540px) {
+
+     .grid {
+        gap: 5rem;
+
+        &.column2,
+        &.column3 {
+            grid-template-columns: 1fr;
+        }
+
+        .flex {
+            gap: 3rem 0rem;
+        }
+    }
+
+    .wpforms-submit-container {
+        justify-content: center;
+
+        button[type="submit"] {
+            width: 100% !important;
+        }
+    }
+}

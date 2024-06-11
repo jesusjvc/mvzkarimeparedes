@@ -1,0 +1,69 @@
+@import '../abstracts/_variables.less';
+
+
+/*** IMPLEMENTACIÓN DE BARRA-BOTONES DE MÓVIL ****/
+#botones-movil {
+    display: none;
+}
+
+/* Max-width 912px
+   ========================================================================== */
+@media(max-width: 912px) {
+
+    .site-footer {
+        margin-bottom: 7rem;
+    }
+
+    .joinchat {
+        display: none !important;
+    }
+
+    #botones-movil {
+        bottom: 0;
+        width: 100%;
+        z-index: 200;
+        display: grid;
+        position: fixed;
+        max-height: 10rem;
+        background-color: @phone;
+        grid-template-columns: repeat(2, 1fr);
+
+        img {
+            width: 5rem;
+        }
+
+        a {
+            padding: 3rem;
+
+            &:active {
+                filter: saturate(30%);
+            }
+
+            &:nth-of-type(1) {
+                background-color: @phone;
+            }
+
+            &:nth-of-type(2) {
+                background-color: @whatsApp;
+            }
+        }
+
+    }
+}
+
+/* Max-width 546px
+   ========================================================================== */
+@media (max-width: 546px) {
+
+    #botones-movil {
+        max-height: 8rem;
+
+        img {
+            width: 4rem;
+        }
+
+        a {
+            padding: 2.5rem;
+        }
+    }
+}

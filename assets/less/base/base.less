@@ -1,0 +1,96 @@
+@import '../abstracts/_variables.less';
+@import '_fonts';
+@import '_reset';
+@import '_typography';
+@import '_base-genesis';
+@import '../layout/_header.less';
+@import '../layout/_footer.less';
+@import '../components/_faq.less';
+@import '../components/_barra-movil.less';
+
+
+html.sr .load-hidden {
+    visibility: hidden;
+}
+
+
+/* Clases Generales
+--------------------------------------------- */
+
+.contain {
+    margin: 0 auto;
+    max-width: 105rem;
+}
+
+.padding {
+    padding: 6rem 0;
+}
+
+.btn {
+    color: white;
+    margin-top: 3rem;
+    padding: 1rem 3rem;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: blueviolet;
+    text-transform: uppercase;
+}
+
+.flex {
+    gap: 2rem;
+    display: flex;
+
+    &.wrap {
+        flex-wrap: wrap;
+    }
+
+    &.center {
+        justify-content: center;
+    }
+
+    &.justify {
+        justify-content: space-between;
+    }
+
+    &.left {
+        justify-content: flex-start;
+    }
+
+    &.right {
+        justify-content: flex-end;
+    }
+}
+
+.grid {
+    gap: 2rem;
+    display: grid;
+
+    &.column2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    &.column3 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+/* Clases Personales
+--------------------------------------------- */
+.center {
+    text-align: center;
+}
+
+.block {
+    display: block
+}
+
+.no-mg {
+    margin: 0;
+}
+
+
+/* Colores
+--------------------------------------------- */
+
+
+@import '_base-responsive';

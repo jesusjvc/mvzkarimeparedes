@@ -1,0 +1,53 @@
+@import '_header-genesis';
+
+#top-bar {
+    padding: 1rem;
+
+    p {
+        color: white;
+        font-size: 1.2rem;
+    }
+
+    .flex {
+        gap: 1rem;
+    }
+}
+
+#middle-bar {
+    padding: 2rem 1rem;
+
+    a {
+        color: black;
+    }
+
+    .logo {
+        max-width: 15rem;
+    }
+
+    button {
+        border: none;
+    }
+}
+
+/* Max-width 960px
+   ========================================================================== */
+@media(max-width: 960px) {
+
+    #top-bar p {
+        font-size: 1rem;
+    }
+
+    #middle-bar {
+        display: none;
+    }
+}
+
+/* Max-width 540px
+   ========================================================================== */
+@media(max-width: 560px) {
+
+    #top-bar .contain>div {
+        display: none;
+    }
+
+}
