@@ -1,3 +1,4 @@
 
-<?php get_template_part('sections/barra-movil') ?>
+<?php include_once 'sections/barra-movil.php' ?>
 
+Hola Mundo

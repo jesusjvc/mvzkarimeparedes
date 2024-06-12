@@ -19,7 +19,7 @@ if(!$elementor){
 
 	remove_action( 'genesis_entry_header', 'genesis_do_post_title' );
 
-	//add_filter( 'the_content', 'echo_content', 90 );
+	add_filter( 'the_content', 'echo_content', 90 );
 	function echo_content($content){
 		global $post;
 		$content = get_template_part('html/pages/page', $post->post_name);
