@@ -17,6 +17,11 @@
         <a href="/" class="logo">
             <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/Logo.png" alt="logo" width="206" height="81">
         </a>
+
+        <div id="media">
+            <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/Instagram.svg" alt="logo" width="25" height="25">
+            <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/Facebook.svg" alt="logo" width="25" height="25">
+        </div>
     </div>
 
     <div class="contain flex justify centerV nav">
