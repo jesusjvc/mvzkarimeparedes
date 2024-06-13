@@ -19,8 +19,12 @@
         </a>
 
         <div id="media">
-            <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/Instagram.svg" alt="logo" width="25" height="25">
-            <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/Facebook.svg" alt="logo" width="25" height="25">
+            <a href="/" class="logo">
+                <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/Instagram.svg" alt="logo" width="25" height="25">
+            </a>  
+            <a href="/" class="logo"> 
+                <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/Facebook.svg" alt="logo" width="25" height="25">
+            </a>  
         </div>
     </div>
 
