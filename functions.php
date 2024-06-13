@@ -254,6 +254,7 @@ function genesis_sample_author_box_gravatar($size)
 	return 90;
 }
 
+
 add_filter('genesis_comment_list_args', 'genesis_sample_comments_gravatar');
 /**
  * Modifies size of the Gravatar in the entry comments.
