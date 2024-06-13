@@ -7,6 +7,7 @@
     "main": [
       "${workspaceFolder}/assets/less/layout/blog.less",
       "${workspaceFolder}/assets/less/base/base.less",
+      "${workspaceFolder}/assets/less/components/components.less",
       "${workspaceFolder}/assets/less/pages/homepage.less",
     ]
   }
