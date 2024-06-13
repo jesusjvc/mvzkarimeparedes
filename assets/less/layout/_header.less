@@ -1,23 +1,48 @@
 @import '_header-genesis';
 
-#top-bar {
-    padding: 1rem;
+/* Site Header
+---------------------------------------------------------------------------- */
 
-    p {
+.site-header {
+    background-color: white;
+    &.home{
+        background-color: transparent;
+    }
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+.top-bar {
+    padding: 2rem;
+    background-color: #2596be;
+
+    p,
+    a {
         color: white;
-        font-size: 1.2rem;
+        font-weight: bold;
+        font-size: 1.5rem;
     }
 
     .flex {
         gap: 1rem;
     }
+
+    .contain {
+        gap: 8rem;
+    }
+
 }
 
+
 #middle-bar {
-    padding: 2rem 1rem;
+    padding: 3rem 1rem;
 
     a {
         color: black;
+        font-weight: 500; 
+    }
+    a:hover{
+        font-weight: bold;
     }
 
     .logo {
@@ -28,20 +53,16 @@
         border: none;
     }
 
-    .flex {
-        flex-direction: column;
+    .logo-header{
+        .logo {
+            max-width: 15rem;
+            margin: auto;
+        }
+    
     }
-}
-.contacto{
-    background-color:#003d6c ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
-    .imagen{
-        width: 100%;
-        margin: auto;
-
+    .nav{
+        padding-top:20px;
     }
 }
 
