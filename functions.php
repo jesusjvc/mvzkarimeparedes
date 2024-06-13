@@ -339,7 +339,7 @@ add_action('genesis_header', 'bld_personalizar_header');
 
 function bld_personalizar_header()
 {
-	//include 'header-page.php';
+	include 'header-page.php';
 }
 
 // Personalizar pie de página en Genesis
