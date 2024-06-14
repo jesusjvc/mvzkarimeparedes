@@ -1,13 +1,83 @@
-.contacto{
+#contacto{
     width: 100%;
     background-color:#003d6c ;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 2rem 0;
+    flex-direction: column;
 
     .imagen{
-        width: 100%;
         margin: auto;
+    }
 
+    hr {
+        width: 100%;
+        height: 1px;
+        background-color: white;
+      }
+
+    .information-contacto{
+        width: 100%; 
+        
+        .grid-contacto{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            width: 100%;
+    
+            .grid-contacto-information{
+                width: 100%;
+    
+                h1{
+                    color: white;
+                    font-weight: bold;
+                    font-size: 25px;
+                }
+    
+                
+                hr {
+                    width: 100%;
+                    height: 1px;
+                    background-color: white;
+                }
+    
+            }
+    
+            .grid-contacto-form{
+                width: 100%;
+                
+            }
+        }
+    }
+
+    .grid-contacto{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        width: 100%;
+
+        .grid-contacto-information{
+            width: 100%;
+
+            h1{
+                color: white;
+                font-weight: bold;
+                font-size: 25px;
+            }
+
+            
+            hr {
+                width: 100%;
+                height: 1px;
+                background-color: white;
+            }
+
+        }
+
+        .grid-contacto-form{
+            width: 100%;
+            
+        }
     }
 }
