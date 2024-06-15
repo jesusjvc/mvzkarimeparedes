@@ -62,6 +62,12 @@
                     </div>
 
                     <div class="grid-contacto-form">
+                        <div class="contacto-formulario">
+                            <h1>¡Escríbenos!</h1>
+                            <p>En breve nos pondremos en contacto contigo.</p>
+                            <?php echo FrmFormsController::get_form_shortcode( array( 'id' => 1 ) ); ?>
+                        </div>
+
                     </div>
 
 
