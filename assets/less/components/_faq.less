@@ -12,11 +12,33 @@
 @height2: 9/@px; // Appears 2 times
 
 #faq {
+    z-index: 400;
+    position: relative;
+
+    h2{
+        color: #8a9dc3;
+        text-align: center;
+        font-weight: 500;
+    }
+
+
+    hr {
+        width: 100%;
+        height: 1px;
+        background-color: #7b7a7a;
+      }
+
+      .top{
+        border-top: 1px solid #7b7a7a;
+        }
 
     ul {
-        padding: 0;
+        
+        padding: 0 10%;
         margin: 2rem 0;
         perspective: 900;
+        
+
 
         li {
             margin: 0;
@@ -24,9 +46,9 @@
             overflow: hidden;
             min-height: 6rem;
             position: relative;
-            margin-bottom: .8rem;
-            background-color: gray;
-            box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.1);
+            border-bottom: 1px solid #7b7a7a;
+          
+
 
             &:last-of-type {
                 padding-bottom: 0;
@@ -40,19 +62,29 @@
                 right: 1.5rem;
                 margin-top: 2.8rem;
                 position: absolute;
-                transform: translate(-6px, 0);
+                transform: translate(-1px, -5px);
+                transform: rotate(-45deg);
 
                 &:before {
+                    
                     content: "";
-                    width: @width2;
-                    height: @height2;
+                    
+                    background-color: black;
+                    height: 2px;
+                    width: 10px;
                     position: absolute;
-                    background-color: gray;
-                    transform: translate(-2px, 0) rotate(45deg);
+                    transform: translate(-2px, 0);
+                    transform: rotate(45deg);
                 }
 
                 &:after {
-                    transform: translate(2px, 0) rotate(-45deg);
+                    height: 2px;
+                    background-color: black;
+                    content: "";
+                    width: 10px;
+                    position: absolute;
+                    transform: translate(2px, 0);
+                    transform: rotate(45deg);
                 }
             }
 
@@ -81,11 +113,13 @@
                 &:checked~i {
 
                     &:before {
-                        transform: translate(2px, 0) rotate(45deg);
+                        
+                        transform: translate(-1px, 2px) rotate(45deg);
                     }
 
                     &:after {
-                        transform: translate(-2px, 0) rotate(-45deg);
+                       
+                        transform: translate(-1px, 2px) rotate(-45deg);
                     }
                 }
             }
@@ -93,27 +127,28 @@
     }
 
     h4 {
-  
         margin: 0;
-        color: black;
+        color: #1b1d1d;
         display: block;
         cursor: pointer;
+        text-align: left;
+        font-style: normal;
+        font-weight: bold;
         font-size: 1.8rem;
         transition: .2s;
-        user-select: none;       
+        user-select: none;
         line-height: 3.4rem;
         padding: 15px 23px 0;
         text-transform: none;
-        text-transform: uppercase;
         -webkit-tap-highlight-color: transparent;
-        -webkit-touch-callout: none;      
+        -webkit-touch-callout: none;
     }
 
     p {
         contain: layout;
         hyphens: auto;
         line-height: 1.45;
-        margin-bottom: 0;
+        margin-bottom: 1.2rem;
         margin-top: 1.2rem;
         max-height: 25.0rem;
         opacity: 1;
@@ -138,23 +173,12 @@
     transition: all 0.3s;
 }
 
-ul {
-    list-style: none;
-    padding: 0;
+/* Max-width 540px
+   ========================================================================== */
+   @media(max-width: 540px) {
 
-    li i {
-        &:before {
-            transition: all 0.3s;
-        }
+    #faq ul{
+        padding: 0;
 
-        &:after {
-            content: "";
-            width: @width2;
-            height: @height2;
-            position: absolute;
-            transition: all 0.3s;
-            background-color: black;
-
-        }
     }
 }

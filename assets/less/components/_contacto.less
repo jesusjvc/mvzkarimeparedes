@@ -25,6 +25,8 @@
             grid-template-columns: repeat(2, 1fr);
             gap: 10px;
             width: 100%;
+
+        
     
             .grid-contacto-information{
                 width: 100%;
@@ -93,4 +95,21 @@
         }
     }
 
+}
+
+
+/* Max-width 540px
+   ========================================================================== */
+   @media(max-width: 540px) {
+
+    #contacto .information-contacto .grid-contacto {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    #contacto .information-contacto .grid-contacto .grid-contacto-form .contacto-formulario {
+        width: 100%;
+    }
 }
