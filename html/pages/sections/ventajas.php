@@ -7,25 +7,35 @@
         <div class="grid-ventajas">
             <div class="item-grid-ventajas">
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/05.svg" alt="imagen">
-                <h1>Estética</h1>
+                <div class="texto-grid-ventajas">
+                    <h1>Experiencia</h1>
+                </div>
             </div>
             <div class="item-grid-ventajas">
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/06.svg" alt="imagen">
-                <h1>Consulta</h1>
+                <div class="texto-grid-ventajas">
+                    <h1>Servicio profesional</h1>
+                </div>
             </div>
             <div class="item-grid-ventajas">
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/07.svg" alt="imagen">
-                <h1>Farmacia</h1>
+                <div class="texto-grid-ventajas">
+                    <h1>Seguimiento personalizado</h1>
+                </div>
             </div>
 
             <div class="item-grid-ventajas">
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/08.svg" alt="imagen">
-                <h1>Farmacia</h1>
+                <div class="texto-grid-ventajas">
+                    <h1>Precios accesibles</h1>
+                </div>
             </div>
 
             <div class="item-grid-ventajas">
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/09.svg" alt="imagen">
-                <h1>Farmacia</h1>
+                <div class="texto-grid-ventajas">
+                    <h1>Servicio a domicilio</h1>
+                </div>
             </div>
 
         </div>
