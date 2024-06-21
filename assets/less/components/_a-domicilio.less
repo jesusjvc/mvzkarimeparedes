@@ -1,0 +1,44 @@
+#a-domicilio{
+   background-color: #3eb0c8; 
+ 
+
+   .container-domicilio{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    h1{
+        font-size:25px ;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .imagen-domicilio{
+        margin-top: 30px;
+        img{
+            height: 90px;
+        }
+    }
+   }
+
+   
+}
+
+/* Max-width 960px
+   ========================================================================== */
+   @media(max-width: 540px) {
+
+    #a-domicilio .container-domicilio {
+        flex-direction: column;
+    }
+
+    #a-domicilio .container-domicilio .imagen-domicilio {
+        margin-top: 0;
+        margin-bottom: 1em;
+    }
+
+}
