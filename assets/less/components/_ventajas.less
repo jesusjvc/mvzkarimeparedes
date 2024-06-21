@@ -1,0 +1,61 @@
+#ventajas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+
+    h2{
+        text-align: center;
+        color: #8a9dc3;
+        font-weight: 500;
+    }
+
+    h1{
+        text-align: center;
+        color: black;
+        font-weight: bold;
+    }
+
+    .grid-ventajas{
+        padding-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 90px;
+
+        .item-grid-ventajas{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            img{
+                width: 60%;
+                height: auto;
+            }
+
+            h1{
+                font-size:25px ;
+                color: black;
+                font-weight: bold;
+            }
+        }
+    }
+
+
+}
+
+/* Max-width 960px
+   ========================================================================== */
+   @media(max-width: 540px) {
+
+    #servicios .grid-ventajas {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #ventajas .grid-ventajas .item-grid-ventajas img {
+        width: 60%;
+    }
+}
