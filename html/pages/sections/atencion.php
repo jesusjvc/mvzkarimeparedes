@@ -1,4 +1,4 @@
-<div id="atencion" >
+<section id="atencion" >
     <div class="contain">
         
         <h2>Horarios de atención:</h2>
@@ -25,4 +25,4 @@
         </div>
         
     </div>
-</div>
+</section>

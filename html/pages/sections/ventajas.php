@@ -1,4 +1,4 @@
-<div id="ventajas" class="padding">
+<section id="ventajas" class="padding">
     <div class="contain">
         
         <h2>─── ¿Por qué acudir con nosotros?</h2>
@@ -41,4 +41,4 @@
         </div>
         
     </div>
-</div>
+</section>
