@@ -1,4 +1,4 @@
-<div id="nosotros" class="padding">
+<section id="nosotros" class="padding">
     <div class="contain">
         
     <div class="content-nosotros">
@@ -22,4 +22,4 @@
     
         
     </div>
-</div>
+</section>

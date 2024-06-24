@@ -1,4 +1,4 @@
-<div id="servicios" class="padding-services">
+<section id="servicios" class="padding-services">
     <div class="contain">
         
         <h2>─── Nuestros servicios.</h2>
@@ -24,4 +24,4 @@
     
         
     </div>
-</div>
+</section>
