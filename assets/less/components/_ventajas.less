@@ -62,13 +62,26 @@
 
 /* Max-width 960px
    ========================================================================== */
-   @media(max-width: 540px) {
+   @media(max-width: 961px) {
 
-    #servicios .grid-ventajas {
+    #ventajas .grid-ventajas  {
         grid-template-columns: repeat(2, 1fr);
+        gap: 35px;
+        row-gap: 60px;
     }
+    
 
     #ventajas .grid-ventajas .item-grid-ventajas img {
         width: 60%;
+    }
+
+    .item-ventajas-final{
+        width: 50%;
+        grid-column: 1 / span 2;
+        margin: auto;
+
+        img{
+            width: 30%;
+        }
     }
 }

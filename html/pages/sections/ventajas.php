@@ -31,7 +31,7 @@
                 </div>
             </div>
 
-            <div class="item-grid-ventajas">
+            <div class="item-grid-ventajas item-ventajas-final">
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/09.svg" alt="imagen">
                 <div class="texto-grid-ventajas">
                     <h1>Servicio a domicilio</h1>
