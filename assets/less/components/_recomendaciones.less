@@ -34,7 +34,15 @@
 
     .diagrama-recomendaciones{
         width: 100%;
-        height: 700px;
+        height: 450px;
+
+
+        .imagen-movil-perro{
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            display: none;
+        }
 
 
         .image-centro-recomendaciones{
@@ -46,11 +54,11 @@
             z-index: 0;
         }
 
+        
+
         .div-imagen-diagrama{
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            position: relative;
-            top: 15%;   
+            grid-template-columns: repeat(3, 1fr);  
 
             .item-veteridario{
                 position: relative;
@@ -58,9 +66,9 @@
                 justify-content: start;
                 align-items: center;
                 gap: 15px;
-                left: 21%;
+                left: 20%;
                 width: auto;
-                top: 60%;
+                top: 40%;
     
                 .item-veterinario-image{
                     width: 100px;
@@ -75,6 +83,7 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    font-family: @text;
                 }
     
             }
@@ -85,7 +94,7 @@
                 justify-content: end;
                 align-items: center;
                 gap: 15px;
-                right: 45%;
+                right: 30%;
                 width: auto;
                 top: 70%;
     
@@ -102,6 +111,7 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    font-family: @text;
                 }
     
             }
@@ -112,9 +122,9 @@
                 justify-content: start;
                 align-items: center;
                 gap: 15px;
-                left: 14%;
+                left: -2%;
                 width: auto;
-                top: 100%;
+                top: 79%;
     
                 .item-veterinario-image{
                     width: 100px;
@@ -129,6 +139,7 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    font-family: @text;
                 }
     
             }
@@ -139,9 +150,9 @@
                 justify-content: end;
                 align-items: center;
                 gap: 15px;
-                right:33%;
+                right:26%;
                 width: auto;
-                top: 160%;
+                top: 137%;
     
                 .item-veterinario-image{
                     width: 100px;
@@ -156,6 +167,7 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    font-family: @text;
                 }
     
             }
@@ -166,9 +178,9 @@
                 justify-content: start;
                 align-items: center;
                 gap: 15px;
-                left: 17%;
+                left: 7%;
                 width: auto;
-                top: 180%;
+                top: 130%;
     
                 .item-veterinario-image{
                     width: 100px;
@@ -183,6 +195,7 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    font-family: @text;
                 }
     
             }
@@ -195,7 +208,7 @@
                 gap: 15px;
                 right:50%;
                 width: auto;
-                top: 220%;
+                top: 166%;
     
                 .item-veterinario-image{
                     width: 100px;
@@ -210,6 +223,7 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    font-family: @text;
                 }
     
             }
@@ -225,49 +239,136 @@
    ========================================================================== */
    @media(max-width: 1114px) {
     #recomendaciones .diagrama-recomendaciones .div-imagen-diagrama .item-veteridario {
-        left: 10%;
+        left: 31%;
     }
     #recomendaciones .diagrama-recomendaciones .div-imagen-diagrama .item-vacuna {
         right: 35%;
     }
     #recomendaciones .diagrama-recomendaciones .div-imagen-diagrama .item-desparasitar {
-        left: 0;
-        top: 93%;
+        left: 13%;
+        top: 60%;
     }
     #recomendaciones .diagrama-recomendaciones .div-imagen-diagrama .item-alimentar {
-        right: 25%;
+        right: 33%;
+        top:112%
     }
     #recomendaciones .diagrama-recomendaciones .div-imagen-diagrama .item-actividad {
-        left: 7%;
+        left: 19%;
+        top:86%
     }
     #recomendaciones .diagrama-recomendaciones .div-imagen-diagrama .item-carino {
-        top: 205%;
+        top: 129%;
+        right: 58%;
     }
 
 }
 
+@media(max-width: 1026px) {
+    #recomendaciones .diagrama-recomendaciones .div-imagen-diagrama .item-veteridario {
+        left: 19%;
+    }
+    #recomendaciones .diagrama-recomendaciones .div-imagen-diagrama .item-vacuna {
+        right: 27%;
+    }
+    #recomendaciones .diagrama-recomendaciones .div-imagen-diagrama .item-desparasitar {
+        left: -4%;
+    }
+    #recomendaciones .diagrama-recomendaciones .div-imagen-diagrama .item-alimentar {
+        right: 26%;
+        top:110%
+    }
+    #recomendaciones .diagrama-recomendaciones .div-imagen-diagrama .item-actividad {
+        left: 5%;
+        top:86%
+    }
+    #recomendaciones .diagrama-recomendaciones .div-imagen-diagrama .item-carino {
+        top: 129%;
+        right: 58%;
+    }
 
+}
 
 @media(max-width: 1000px) {
     #recomendaciones .diagrama-recomendaciones .div-imagen-diagrama .item-veteridario {
-        left: -12%;
+        left: 13%;
     }
     #recomendaciones .diagrama-recomendaciones .div-imagen-diagrama .item-vacuna {
-        left: -19%;
+        left: -23%;
     }
     #recomendaciones .diagrama-recomendaciones .div-imagen-diagrama .item-desparasitar {
         left: -10%;
         top:83%;
     }
     #recomendaciones .diagrama-recomendaciones .div-imagen-diagrama .item-alimentar {
-        right: 10%;
+        right: 20%;
     }
     #recomendaciones .diagrama-recomendaciones .div-imagen-diagrama .item-actividad {
-        left: 14%;
-        top:144%;
+        left: 0%;
+        top:106%;
     }
     #recomendaciones .diagrama-recomendaciones .div-imagen-diagrama .item-carino {
         right: 38%;
+        top:124%;
+    }
+
+}
+
+@media(max-width: 961px) {
+    #recomendaciones{
+        background-image: url("../../assets/img/fondo-recomendaciones.png");
+    }
+    #recomendaciones .diagrama-recomendaciones{
+        height: auto;
+    }
+
+    #recomendaciones .diagrama-recomendaciones .imagen-movil-perro  {
+        display: flex;
+    }
+    #recomendaciones .diagrama-recomendaciones .div-imagen-diagrama{
+        margin-top: 20px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }  
+
+    .class-none-movil-recomendaciones{
+        display: none;
+    }
+
+    #recomendaciones .diagrama-recomendaciones .div-imagen-diagrama .item-veteridario {
+        position: static;
+        justify-content: center;
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+    #recomendaciones .diagrama-recomendaciones .div-imagen-diagrama .item-vacuna {
+        position: static;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+    #recomendaciones .diagrama-recomendaciones .div-imagen-diagrama .item-desparasitar {
+        position: static;
+        justify-content: center;
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+    #recomendaciones .diagrama-recomendaciones .div-imagen-diagrama .item-alimentar {
+        position: static;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+    #recomendaciones .diagrama-recomendaciones .div-imagen-diagrama .item-actividad {
+        position: static;
+        justify-content: center;
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+    #recomendaciones .diagrama-recomendaciones .div-imagen-diagrama .item-carino {
+        position: static;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
     }
 
 }
