@@ -1,6 +1,6 @@
 
 <?php add_revslider('slider-1'); ?>
-<?php include_once 'sections/nosotros.php' ?>
+<?php get_template_part ('html/pages/sections/nosotros'); ?>
 <?php include_once 'sections/servicios.php' ?>
 <?php include_once 'sections/a-tu-domicilio.php' ?>
 <?php include_once 'sections/ventajas.php' ?>
