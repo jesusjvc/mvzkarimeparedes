@@ -3,12 +3,20 @@ ScrollReveal({ reset: false });
 // Configuración para el resto del contenido
 // --------------------------------------------
 var headers = {
-	delay: 75,
+    duration: 2000,
+    origin: "top",
+    distance: "400px",
+    easing: "cubic-bezier(0.5, 0, 0, 1)",
+    rotate: {
+      x: 20,
+      z: -10
+    }
+	/*delay: 75,
 	duration: 1000,
 	opacity: 0,
 	distance: "50%",
 	origin: "bottom",
-	easing: "ease-in-out"
+	easing: "ease-in-out"*/
 }
 
 var parrafos = {
