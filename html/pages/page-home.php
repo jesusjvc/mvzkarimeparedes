@@ -1,14 +1,16 @@
 
 <?php add_revslider('slider-1'); ?>
 <?php get_template_part ('html/pages/sections/nosotros'); ?>
-<?php include_once 'sections/servicios.php' ?>
-<?php include_once 'sections/a-tu-domicilio.php' ?>
-<?php include_once 'sections/ventajas.php' ?>
-<?php include_once 'sections/atencion.php' ?>
-<?php include_once 'sections/amamos-lo-que-hacemos.php' ?>
-<?php include_once 'sections/recomendaciones.php' ?>
-<?php include_once 'sections/productos.php' ?>
-<?php include_once 'sections/faq.php' ?>
-<?php include_once 'sections/testimonios.php' ?>
-<?php include_once 'sections/contacto.php' ?>
+<?php get_template_part ('html/pages/sections/barra-movil'); ?>
+<?php get_template_part ('html/pages/sections/servicios'); ?>
+<?php get_template_part ('html/pages/sections/a-tu-domicilio'); ?>
+<?php get_template_part ('html/pages/sections/ventajas'); ?>
+<?php get_template_part ('html/pages/sections/atencion'); ?>
+<?php get_template_part ('html/pages/sections/amamos-lo-que-hacemos'); ?>
+<?php get_template_part ('html/pages/sections/recomendaciones'); ?>
+<?php get_template_part ('html/pages/sections/productos'); ?>
+<?php get_template_part ('html/pages/sections/faq'); ?>
+<?php get_template_part ('html/pages/sections/testimonios' ); ?>
+<?php get_template_part ('html/pages/sections/contacto'); ?>
+
 

@@ -22,7 +22,7 @@
             <a href="/" class="logo">
                 <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/Instagram.svg" alt="logo" width="25" height="25">
             </a>  
-            <a href="/" class="logo"> 
+            <a href="https://api.whatsapp.com/send/?phone=5277778765881&text=Hola%2C+quiero+informacion&type=phone_number&app_absent=0" class="logo"> 
                 <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/Facebook.svg" alt="logo" width="25" height="25">
             </a>  
         </div>
@@ -31,12 +31,12 @@
     <div class="contain flex justify centerV nav">
         <nav class="flex centerV">
             <a href="#">Inicio</a>
-            <a href="#te-cuento">Te cuento más sobre mí </a>
+            <a href="#nosotros">Te cuento más sobre mí </a>
             <a href="#servicios">Nuestros servicios</a>
-            <a href="">¿Por qué acudir con nosotros?</a>
-            <a href="">¿Cómo cuidar la salud de mi mascota?</a>
-            <a href="">Preguntas frecuentes</a>
-            <a href="">Contacto</a>
+            <a href="#ventajas">¿Por qué acudir con nosotros?</a>
+            <a href="#recomendaciones">¿Cómo cuidar la salud de mi mascota?</a>
+            <a href="#faq">Preguntas frecuentes</a>
+            <a href="#contacto">Contacto</a>
         </nav>
 
     </div>

@@ -34,7 +34,7 @@
                                 </div>
 
                                 <div class="grid-contacto-information-media-item-text">
-                                    <p>+52 777 787 6588</p>
+                                    <a href ="https://api.whatsapp.com/send/?phone=5277778765881&text=Hola%2C+quiero+informacion&type=phone_number&app_absent=0" >+52 777 787 6588</a>
                                 </div>
                             </div>
 
@@ -44,7 +44,7 @@
                                 </div>
 
                                 <div class="grid-contacto-information-media-item-text">
-                                    <p>mvz.karimepc</p>
+                                    <a href="#">mvz.karimepc</a>
                                 </div>
                             </div>
 
@@ -54,7 +54,7 @@
                                 </div>
 
                                 <div class="grid-contacto-information-media-item-text">
-                                    <p>karime@mvzkarimeparedes.mx</p>
+                                    <a href="mailto:karime@mvzkarimeparedes.mx">karime@mvzkarimeparedes.mx</a>
                                 </div>
                             </div>
 
