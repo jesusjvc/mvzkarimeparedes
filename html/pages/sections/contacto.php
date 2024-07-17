@@ -7,7 +7,6 @@
 
         <hr>
 
-
         <div class="information-contacto">
             <div class="contain">
                 <div class="grid-contacto">
