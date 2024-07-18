@@ -9,7 +9,7 @@
             <h2>─── Te cuento más sobre mí.</h2>
             <h1>¡Hola! mi nombre es Karime Paredes...</h1>
             <p>Soy <span>Médico Veterinario Zootecnista (MVZ)</span>, egresada en el 2021 de la Universidad Mesoamericana Plantel Cuernavaca, con título profesional y <span>cédula 13607579</span>. Tengo un gran interés por el bienestar de todos los animales y el cuidado de las mascotas que nos acompañan en nuestra vida diaria. Sé que ellos son parte de la familia, por lo tanto, merecen un trato y cuidado dignos.</p>
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/certificado.png" alt="certificado">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/Certificado.png" alt="certificado">
             <p><span>¡Porque el amor por los animales cambia el mundo!</span> Ten por seguro que usaré toda mi experiencia y conocimientos para darle la mejor atención a tu compañero de vida y aventuras.</p>
             <a href="" target="_black" class="button">
                 <p>Agenda cita</p>
