@@ -33,7 +33,7 @@
                                 </div>
 
                                 <div class="grid-contacto-information-media-item-text">
-                                    <a href ="https://api.whatsapp.com/send/?phone=5277778765881&text=Hola%2C+quiero+informacion&type=phone_number&app_absent=0" >+52 777 787 6588</a>
+                                    <a href ="https://api.whatsapp.com/send/?phone=5277778740881&text=Hola%2C+quiero+informacion&type=phone_number&app_absent=0" >+52 777 787 4088</a>
                                 </div>
                             </div>
 

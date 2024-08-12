@@ -22,7 +22,7 @@
             <a href="/" class="logo">
                 <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/Instagram.svg" alt="logo" width="25" height="25">
             </a>  
-            <a href="https://api.whatsapp.com/send/?phone=5277778765881&text=Hola%2C+quiero+informacion&type=phone_number&app_absent=0" class="logo"> 
+            <a href="https://api.whatsapp.com/send/?phone=527777874088&text=Hola%2C+quiero+informacion&type=phone_number&app_absent=0" class="logo"> 
                 <img loading="lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/Facebook.svg" alt="logo" width="25" height="25">
             </a>  
         </div>
