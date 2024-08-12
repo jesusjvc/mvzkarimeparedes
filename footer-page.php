@@ -8,6 +8,6 @@
 
     <div class="contain">
         <p class="center"><strong>MVZ.Karime Paredes,</strong> 2024. Todos los derechos reservados. Esta página <span> EsBrillante</span> </p>
-        <p class="center"><strong>Médico Veterinario en Temixco Morelos | </strong> <a href="https://esbrillante.mx/diseno-paginas-web-cuernavaca-morelos/" target="_blank">Diseño Web en Cuernavaca</a></p>
+        <p class="center"><strong>Médico Veterinario en Temixco Morelos | </strong> <a href="https://esbrillante.mx/diseno-paginas-web-cuernavaca-morelos/" target="_blank" style="">Diseño Web en Cuernavaca</a></p>
     </div>
 </section>
