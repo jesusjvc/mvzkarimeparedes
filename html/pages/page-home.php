@@ -1,5 +1,5 @@
 
-<?php add_revslider('slider-1'); ?>
+<?php get_template_part('html/pages/sections/banner'); ?>
 <?php get_template_part ('html/pages/sections/nosotros'); ?>
 <?php get_template_part ('html/pages/sections/barra-movil'); ?>
 <?php get_template_part ('html/pages/sections/servicios'); ?>
