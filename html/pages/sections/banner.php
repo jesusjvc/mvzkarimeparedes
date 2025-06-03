@@ -6,3 +6,21 @@
         </div>
     </div>
 </section>
+<style>
+	#banner .banner{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+#banner .banner-responsive{
+    display: none;
+}
+@media(max-width:600px){
+    #banner .banner{
+        display: none;
+    }
+    #banner .banner-responsive{
+        display: block;
+    }
+}
+</style>
