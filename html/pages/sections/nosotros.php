@@ -3,7 +3,7 @@
         
     <div class="content-nosotros">
         <div class="imagen-nosotros">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/02.jpg" alt="imagen">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/Imagen1.png" alt="imagen">
         </div>
         <div class="text-nosotros">
             <h2>─── Te cuento más sobre mí.</h2>
